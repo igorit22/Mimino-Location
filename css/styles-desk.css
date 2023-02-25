@@ -1,13 +1,13 @@
 @media screen and (min-width: 769px) {
-    .container {
+    .container-wrap {
       display: flex;
     }
     
-    .container .container-item:nth-of-type(1) {
+    .container-wrap .container-item:nth-of-type(1) {
       order: 2;
     }
     
-    .container .container-item:nth-of-type(3) {
+    .container-wrap .container-item:nth-of-type(3) {
       order: 3;
     }
 
@@ -23,10 +23,15 @@
 
       }
 
+      .location-title {
+        font-size: 68px;
+        margin: 0;
+      }
+
       .location-address-text {
         max-width: 214px;
         margin-top: 0;
-        margin-left: -190px;
+        margin-left: -320px;
         margin-top: 500px;
         font-size: 18px;
         line-height: 1.33;
@@ -35,12 +40,15 @@
       }
 
       .contacts {
+        display: flex;
         margin-top: 0;
         margin-top: 475px;
-        margin-left: 70px;
+        margin-left: -35px;
     }
     .contacts-text {
-      margin-top: 0;
+      margin: 0;
+      padding-top: 15px;
+      padding-right: 12px;
 
     }
   }

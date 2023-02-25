@@ -3,4 +3,9 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .location-title {
+        font-size: 68px;
+        margin-bottom: 40px;
+      }
 }
