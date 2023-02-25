@@ -1,0 +1,124 @@
+:root {
+  /* --outline: 1px solid tomato; */
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #f6f6f6;
+}
+
+address {
+  font-style: normal;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* -----------------Website utilities-------------------- */
+
+.line {
+  text-decoration: none;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* -----------------Location & contacts-------------- */
+
+.container {
+  max-width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.location {
+  padding: 64px 5px;
+  background: #f6f6f6;
+}
+
+.location-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #121212;
+}
+
+/* .thumb {
+  position: relative;
+  height: 384px;
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.location-map {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+}
+
+.location-address-text {
+  max-width: 214px;
+  margin-top: 32px;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.location-address {
+}
+.contacts {
+}
+.contacts-text {
+  margin-top: 28px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #121212;
+}
+.contacts-list {
+  margin-top: 12px;
+}
+.contacts-item {
+}
+.contacts-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #121212;
+}

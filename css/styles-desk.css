@@ -1,0 +1,41 @@
+@media screen and (min-width: 769px) {
+    .container {
+      display: flex;
+    }
+    
+    .container .container-item:nth-of-type(1) {
+      order: 2;
+    }
+    
+    .container .container-item:nth-of-type(3) {
+      order: 3;
+    }
+    
+
+    .location-map {
+        display: block;
+        margin: 0;
+        margin-right: 32px;
+
+      }
+
+      .location-address-text {
+        max-width: 214px;
+        margin-top: 0;
+        /* margin-left: -190px;
+        margin-top: 470px; */
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.02em;
+        color: #000000;
+      }
+
+      .contacts {
+        margin-top: 0;
+        /* margin-top: 415px;
+        margin-left: 70px; */
+    }
+    .container .container-item {
+       flex-direction: column;
+    }
+  }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Mimino</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./images/favicon.ico"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles-mob.css" />
+    <link rel="stylesheet" href="./css/styles-tab.css" />
+    <link rel="stylesheet" href="./css/styles-desk.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!---------- Location & contacts ----------->
+
+      <section class="location">
+        <div class="container">
+          <div class="container-item">
+            <h2 class="location-title">LOCATION</h2>
+          </div>
+          <div class="container-item">
+            <picture class="location-map">
+              <source
+                media="(min-width: 375px) and (max-width: 768px)"
+                srcset="./images/map-tab-x1.jpg"
+              />
+              <source
+                media="(min-width: 769px)"
+                srcset="./images/map-desk-x1.jpg"
+              />
+              <img
+                src="./images/map-mob-x1.jpg"
+                alt="We are on the map"
+                class="location-map"
+              />
+            </picture>
+          </div>
+          <!-- <img class="location-map" src="./images/map-mob-x1.jpg" alt="We are on the map"
+        srcset="map-tab-x1.jpg 200w, 
+        map-desck-x1.jpg 600w"  sizes="(max-width:800px) 30vw,  600px"> -->
+          <div class="container-item">
+            <address class="location-address">
+              <div class="adress">
+                <p class="location-address-text">
+                  UKRAINE,
+                  POLTAVA,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  ST. MARSHAL BIRYUZOV, 15
+                </p>
+              </div>
+              <div class="contacts">
+                <p class="contacts-text">CALL US:</p>
+                <ul class="list contacts-list">
+                  <li class="contacts-item">
+                    <a
+                      href="tel:+380955559533"
+                      class="line contacts-link"
+                      >(095) 555 95 33</a
+                    >
+                  </li>
+                  <li class="contacts-item">
+                    <a
+                      href="tel:+380668491089"
+                      class="line contacts-link"
+                      >(066) 849 10 89</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </address>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
