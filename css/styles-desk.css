@@ -10,6 +10,10 @@
     .container .container-item:nth-of-type(3) {
       order: 3;
     }
+
+    .location {
+      padding: 64px 0;
+    }
     
 
     .location-map {
@@ -22,8 +26,8 @@
       .location-address-text {
         max-width: 214px;
         margin-top: 0;
-        /* margin-left: -190px;
-        margin-top: 470px; */
+        margin-left: -190px;
+        margin-top: 500px;
         font-size: 18px;
         line-height: 1.33;
         letter-spacing: -0.02em;
@@ -32,10 +36,11 @@
 
       .contacts {
         margin-top: 0;
-        /* margin-top: 415px;
-        margin-left: 70px; */
+        margin-top: 475px;
+        margin-left: 70px;
     }
-    .container .container-item {
-       flex-direction: column;
+    .contacts-text {
+      margin-top: 0;
+
     }
   }
